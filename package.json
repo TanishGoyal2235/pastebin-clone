@@ -1,0 +1,17 @@
+{
+  "name": "pastebin-same-ui",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "mongoose": "^8.0.3",
+    "uuid": "^9.0.1"
+  }
+}

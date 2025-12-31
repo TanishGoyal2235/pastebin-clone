@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pastebin Clone</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="box">
+<h2>Create New Paste</h2>
+
+<form action="/create" method="POST">
+<input type="text" name="title" placeholder="Paste Title (optional)">
+<textarea name="content" placeholder="Type your paste here..." required></textarea>
+
+<select name="expires">
+<option value="never">Never Expire</option>
+<option value="10m">10 Minutes</option>
+<option value="1h">1 Hour</option>
+</select>
+
+<button type="submit">Create Paste</button>
+</form>
+</div>
+
+</body>
+</html>
